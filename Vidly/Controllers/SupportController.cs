@@ -9,6 +9,7 @@ namespace Vidly.Controllers
         {
             var support = new Support() {Name = "Rambod" ,Description="Nadarim hichi toosh" };
             return View(support);
+            //return new ViewResult();
         }
     }
 }
